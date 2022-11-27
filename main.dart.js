@@ -30660,14 +30660,14 @@ return A.m(null,r)}})
 return A.n($async$agh,r)},
 tV(a){return new A.c_(A.afF(),new A.ag5(a),null,null,t.Ab)},
 big(a){return A.cY(a)!=null},
-aXy(a6,a7,a8,a9,b0,b1,b2,b3,b4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="minutes",b=",\n",a="MidBlack",a0="_screenWidth",a1="_uiSize",a2="_screenHeight",a3=t.p,a4=A.a([],a3),a5=b1.length-1
-if(A.big(b1[a5])){s=b1
-r=""}else{s=B.d.a_(b1,0,a5)
-r=b1[a5]}q=A.a([],t.Ne)
-for(a5=!b4,p="",o=0;o<a7.length;++o){n=a7[o]
+aXy(a5,a6,a7,a8,a9,b0,b1,b2,b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="minutes",b=",\n",a="_screenWidth",a0="_uiSize",a1="_screenHeight",a2=t.p,a3=A.a([],a2),a4=b0.length-1
+if(A.big(b0[a4])){s=b0
+r=""}else{s=B.d.a_(b0,0,a4)
+r=b0[a4]}q=A.a([],t.Ne)
+for(a4=!b3,p="",o=0;o<a6.length;++o){n=a6[o]
 m=B.b.a9(B.b.aE(1000*(A.jy(n.b).iX().a-Date.now()),6e7),0)
-if(b4){l=A.ka(n.a)
-q.push(A.ak(d,d,d,A.V(a6).R8.y,l))}if($.li){l=Date.now()+B.b.aE(6e7*A.cS(m,d),1000)
+if(b3){l=A.ka(n.a)
+q.push(A.ak(d,d,d,A.V(a5).R8.y,l))}if($.li){l=Date.now()+B.b.aE(6e7*A.cS(m,d),1000)
 k=new A.c3(l,!1)
 k.nJ(l,!1)
 q.push(A.ak(d,d,d,B.b6," "+A.q9("hh:mm a",d).h4(0,k)+"("))}l=$.aw
@@ -30678,59 +30678,59 @@ j=$.aw
 if(l==="l"){l=(j==null?$.aw=A.bw():j).bR(c,d,d,d)
 j=$.li
 i=j?")":""
-if(o<a7.length-1)if(j)j="\n"
-else{if(b4)if(o>0){B.b.bq(o,1)
+if(o<a6.length-1)if(j)j="\n"
+else{if(b3)if(o>0){B.b.bq(o,1)
 j=!0}else j=!1
 else j=!1
 if(j)j=b
-else j=a5&&o>0&&B.b.bq(o,2)===1?b:", "}else j=""
+else j=a4&&o>0&&B.b.bq(o,2)===1?b:", "}else j=""
 q.push(A.ak(d,d,d,d,l+i+j))}else{l=(j==null?$.aw=A.bw():j).bR(c,d,d,d)
 j=$.li
 i=j?")":""
-if(o<a7.length-1)if(j)j="\n"
-else if(b4&&o>0&&B.b.bq(o,2)===1)j=b
-else j=a5&&o>0&&B.b.bq(o,3)===2?b:", "
+if(o<a6.length-1)if(j)j="\n"
+else if(b3&&o>0&&B.b.bq(o,2)===1)j=b
+else j=a4&&o>0&&B.b.bq(o,3)===2?b:", "
 else j=""
-q.push(A.ak(d,d,d,d,l+i+j))}}a5=p===""
-if(a5&&b2==="\u8f15\u9435"&&b3>0){a5=Date.now()
-h=A.q9("hh:mm a",d).h4(0,new A.c3(a5,!1))
+q.push(A.ak(d,d,d,d,l+i+j))}}a4=p===""
+if(a4&&b1==="\u8f15\u9435"&&b2>0){a4=Date.now()
+h=A.q9("hh:mm a",d).h4(0,new A.c3(a4,!1))
 if($.li){q.push(A.ak(d,d,d,B.b6,h+"("))
 q.push(B.jk)
 q.push(A.ak(d,d,d,d,A.aI(c,d)+")"))}else{q.push(B.jk)
-q.push(A.ak(d,d,d,d,A.aI(c,d)))}}else if(a5){a5=b0!==""&&q.length!==0?"\n":""
+q.push(A.ak(d,d,d,d,A.aI(c,d)))}}else if(a4){a4=a9!==""&&q.length!==0?"\n":""
 l=A.aI("no_service",d)
-q.push(A.ak(d,d,d,A.b2(d,d,B.aW,d,d,d,d,d,d,d,d,A.V(a6).R8.y.r,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),a5+l))}a5=t.m
-l=a6.q(a5).f
-j=A.bU(a8,"("," ")
+q.push(A.ak(d,d,d,A.b2(d,d,B.aW,d,d,d,d,d,d,d,d,A.V(a5).R8.y.r,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),a4+l))}a4=t.m
+l=a5.q(a4).f
+j=A.bU(a7,"("," ")
 j=A.bU(j,")","")
-i=A.V(a6).R8.y.r
+i=A.V(a5).R8.y.r
 i.toString
-l=A.aC(d,A.az(j,d,d,d,d,d,d,d,A.b2(d,d,d,d,d,d,d,d,a,d,d,i*1.2,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),B.bu,d,d,d),B.i,d,new A.aW(0,l.a.a*0.5,0,1/0),d,d,d,d,d,d,d,d)
-i=a6.q(a5).f
-j=A.V(a6).R8.y.r
+l=A.aC(d,A.az(j,d,d,d,d,d,d,d,A.b2(d,d,d,d,d,d,d,d,d,d,d,i*1.2,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),B.bu,d,d,d),B.i,d,new A.aW(0,l.a.a*0.5,0,1/0),d,d,d,d,d,d,d,d)
+i=a5.q(a4).f
+j=A.V(a5).R8.y.r
 j.toString
-i=A.bz(A.a([A.bC(A.a([A.bC(A.a([l,A.aC(d,A.az(a9,d,d,d,d,d,d,d,A.b2(d,d,d,d,d,d,d,d,a,d,d,j*0.6,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),B.bu,d,d,d),B.i,d,new A.aW(0,i.a.a*0.4,0,1/0),d,d,d,d,d,d,d,d)],a3),B.u,B.aG,B.t,B.A)],a3),B.u,B.j1,B.t,B.A)],a3),B.a8,B.x,B.t,d,d)
-j=A.V(a6).R8.y.r
+i=A.bz(A.a([A.bC(A.a([A.bC(A.a([l,A.aC(d,A.az(a8,d,d,d,d,d,d,d,A.b2(d,d,d,d,d,d,d,d,d,d,d,j*0.6,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),B.bu,d,d,d),B.i,d,new A.aW(0,i.a.a*0.4,0,1/0),d,d,d,d,d,d,d,d)],a2),B.u,B.aG,B.t,B.A)],a2),B.u,B.j1,B.t,B.A)],a2),B.a8,B.x,B.t,d,d)
+j=A.V(a5).R8.y.r
 j.toString
-j=A.ak(d,d,d,A.b2(d,d,A.V(a6).bZ.c,d,d,d,d,d,a,d,d,j*2,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),s)
-l=A.V(a6).R8.y.r
+j=A.ak(d,d,d,A.b2(d,d,A.V(a5).bZ.c,d,d,d,d,d,d,d,d,j*2,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),s)
+l=A.V(a5).R8.y.r
 l.toString
-a4.push(A.bz(A.a([i,B.GJ,A.bC(A.a([A.a0Q(d,d,B.ao,!0,d,A.ak(A.a([j,A.ak(d,d,d,A.b2(d,d,A.V(a6).bZ.c,d,d,d,d,d,a,d,d,l*1.5,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),r)],t.B),d,d,d,d),B.ae,d,d,1,B.a2)],a3),B.u,B.x,B.t,B.A)],a3),B.u,B.aG,B.t,d,d))
-if(b0!=="")a4.push(A.az(b0,d,d,d,d,d,d,d,A.b2(d,d,d,d,d,d,d,d,a,d,d,A.V(a6).R8.y.r,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d,d))
-if(b3>0){g=A.a([],a3)
+a3.push(A.bz(A.a([i,B.GJ,A.bC(A.a([A.a0Q(d,d,B.ao,!0,d,A.ak(A.a([j,A.ak(d,d,d,A.b2(d,d,A.V(a5).bZ.c,d,d,d,d,d,d,d,d,l*1.5,d,B.F,d,d,!0,d,d,d,d,d,d,d,d),r)],t.B),d,d,d,d),B.ae,d,d,1,B.a2)],a2),B.u,B.x,B.t,B.A)],a2),B.u,B.aG,B.t,d,d))
+if(a9!=="")a3.push(A.az(a9,d,d,d,d,d,d,d,A.b2(d,d,d,d,d,d,d,d,d,d,d,A.V(a5).R8.y.r,d,d,d,d,!0,d,d,d,d,d,d,d,d),d,d,d,d))
+if(b2>0){g=A.a([],a2)
 g.push(A.rI(A.ak(q,d,d,d,""),d,d,d,d,d,d,d,d,d,d,d))
-for(f=0;f<b3;++f){a3=A.V(a6).R8.y.b
+for(f=0;f<b2;++f){a2=A.V(a5).R8.y.b
 l=$.Y()
 if(A.b(l.e,"_minTextAdapt")){j=l.f
-j=j!=null?j.q(a5).f.a.a:A.b(l.c,a0)
-i=A.b(l.a,a1).a
+j=j!=null?j.q(a4).f.a.a:A.b(l.c,a)
+i=A.b(l.a,a0).a
 if(A.b(l.r,"_splitScreenMode")){e=l.f
-e=e!=null?e.q(a5).f.a.b:A.b(l.d,a2)
+e=e!=null?e.q(a4).f.a.b:A.b(l.d,a1)
 e=Math.max(e,700)}else{e=l.f
-e=e!=null?e.q(a5).f.a.b:A.b(l.d,a2)}l=Math.min(j/i,e/A.b(l.a,a1).b)}else{j=l.f
-j=j!=null?j.q(a5).f.a.a:A.b(l.c,a0)
-l=j/A.b(l.a,a1).a}g.push(new A.uB(B.jR,100*l*A.aq(),a3,d))}a4.push(A.bz(g,B.a8,B.x,B.t,d,d))}else a4.push(A.rI(A.ak(q,d,d,d,""),d,d,d,d,d,d,d,d,d,d,d))
-return a4},
+e=e!=null?e.q(a4).f.a.b:A.b(l.d,a1)}l=Math.min(j/i,e/A.b(l.a,a0).b)}else{j=l.f
+j=j!=null?j.q(a4).f.a.a:A.b(l.c,a)
+l=j/A.b(l.a,a0).a}g.push(new A.uB(B.jR,100*l*A.aq(),a2,d))}a3.push(A.bz(g,B.a8,B.x,B.t,d,d))}else a3.push(A.rI(A.ak(q,d,d,d,""),d,d,d,d,d,d,d,d,d,d,d))
+return a3},
 bie(a,b,c,d,e,f,g,h,i){var s,r,q,p,o=A.a([],t.p)
 if(h==null)return A.aXy(a,b,c,d,e,f,g,0,i)
 else for(s=J.v(h),r=t.lC,q=0;q<s.gm(h);++q){p=A.aXy(a,A.a([b[q]],r),c,d,e,f,g,s.h(h,q),i)
@@ -30779,7 +30779,7 @@ k=A.aI("no_service",c)
 q.push(A.ak(c,c,c,A.b2(c,c,B.aW,c,c,c,c,c,c,c,c,A.V(a3).R8.y.r,c,B.F,c,c,!0,c,c,c,c,c,c,c,c),p+k))}p=$.aZ==="zh"?a5:a6
 k=A.V(a3).R8.y.r
 k.toString
-r.push(A.az(p,c,c,c,c,c,c,c,A.b2(c,c,c,c,c,c,c,c,"MidBlack",c,c,k*1.2,c,B.F,c,c,!0,c,c,c,c,c,c,c,c),c,c,c,c))
+r.push(A.az(p,c,c,c,c,c,c,c,A.b2(c,c,c,c,c,c,c,c,c,c,c,k*1.2,c,B.F,c,c,!0,c,c,c,c,c,c,c,c),c,c,c,c))
 if(a7!=="")r.push(A.az(a7,c,c,c,c,c,c,c,A.V(a3).R8.y,c,c,c,c))
 if(b0>0){f=A.a([],s)
 f.push(A.rI(A.ak(q,c,c,c,""),c,c,c,c,c,c,c,c,c,c,c))
@@ -109207,7 +109207,7 @@ f=f?B.k8:B.p
 c=r?B.qW:B.f6
 r=r?B.ME:B.Nc
 a0=A.b6I(d,o,e,h,g,i,j,B.af,r,k,B.aC,m,l,n,p,B.de,q,c,new A.Bz(a2,a2,f,a2,a2,a2,a2,a2,a2,a2),B.ahy,a0)
-return new A.v0(new A.I9(a2),A.G(["/webview",new A.aMJ(),"/map",new A.aMK(),"/routemap",new A.aML(),"/minibusroutemap",new A.aMM(),"/lightrailroutemap",new A.aMN(),"/mtrroutemap",new A.aMO(),"/sortbookmark",new A.aMP()],t.N,t.z0),new A.aMQ(),"Routejam",a0,s,a3,a4,a5.d,!1,a2)},
+return new A.v0(new A.I9(a2),A.G(["/webview",new A.aMJ(),"/map",new A.aMK(),"/routemap",new A.aML(),"/minibusroutemap",new A.aMM(),"/lightrailroutemap",new A.aMN(),"/mtrroutemap",new A.aMO(),"/sortbookmark",new A.aMP()],t.N,t.z0),new A.aMQ(),"Routejam - \u8def\u66a2",a0,s,a3,a4,a5.d,!1,a2)},
 $S:599}
 A.aMQ.prototype={
 $2(a,b){var s=a.q(t.m).f.xm(1)
@@ -112695,40 +112695,40 @@ return A.n($async$Er,r)},
 L(a,b){var s=A.b5K(b,t.cc)
 return new A.c_(this.Er(),new A.aQa(this,s),null,null,t.O)}}
 A.aQa.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="MidBlack",e=b.c
-if(e!=null)A.O(J.L(e))
-if(b.b!=null){e=A.az(A.aI("language",g),g,g,g,g,g,g,g,g,g,g,g,g)
+$2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=b.c
+if(f!=null)A.O(J.L(f))
+if(b.b!=null){f=A.az(A.aI("language",g),g,g,g,g,g,g,g,g,g,g,g,g)
 s=this.a
 r=this.b
 q=$.aZ==="zh"
 p=t.HZ
-q=A.eI(A.bS(g,g,g,g,g,g,g,g,e,A.ha(B.Sg,B.J,g,A.a([q,!q],p),new A.aQ_(s,r,a),!0)),g,g,B.bo)
-e=A.az(A.aI("font_size",g),g,g,g,g,g,g,g,g,g,g,g,g)
+q=A.eI(A.bS(g,g,g,g,g,g,g,g,f,A.ha(B.Sg,B.J,g,A.a([q,!q],p),new A.aQ_(s,r,a),!0)),g,g,B.bo)
+f=A.az(A.aI("font_size",g),g,g,g,g,g,g,g,g,g,g,g,g)
 o=t.p
 n=A.a([A.az(A.aI("small",g),g,g,g,g,g,g,g,g,g,g,g,g),A.az(A.aI("medium",g),g,g,g,g,g,g,g,g,g,g,g,g),A.az(A.aI("large",g),g,g,g,g,g,g,g,g,g,g,g,g)],o)
 m=$.nK
-m=A.eI(A.bS(g,g,g,g,g,g,g,g,e,A.ha(n,B.J,g,A.a([m==="s",m==="m",m==="l"],p),new A.aQ0(s,r),!0)),g,g,B.bo)
+m=A.eI(A.bS(g,g,g,g,g,g,g,g,f,A.ha(n,B.J,g,A.a([m==="s",m==="m",m==="l"],p),new A.aQ0(s,r),!0)),g,g,B.bo)
 n=A.az(A.aI("theme_color",g),g,g,g,g,g,g,g,g,g,g,g,g)
-e=r.b
-e=A.eI(A.bS(g,g,g,g,g,g,g,g,n,A.ha(B.a2_,B.J,g,A.a([!e,e],p),new A.aQ1(s,r),!0)),g,g,B.bo)
+f=r.b
+f=A.eI(A.bS(g,g,g,g,g,g,g,g,n,A.ha(B.a2_,B.J,g,A.a([!f,f],p),new A.aQ1(s,r),!0)),g,g,B.bo)
 n=A.az(A.aI("sort_starred",g),g,g,g,g,g,g,g,g,g,g,g,g)
 l=$.Y().gav()
 l=A.eI(A.bS(g,g,g,g,g,new A.aQ2(a),g,g,n,A.cJ(B.Oz,A.V(a).bZ.c,120*l)),g,g,B.bo)
 n=A.az(A.aI("eds_style",g),g,g,g,g,g,g,g,g,g,g,g,g)
 k=t.m
 j=a.q(k).f
-j=A.aC(g,A.az("\u85cd\u7530",g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,f,g,g,70*$.Y().gav()*A.aq(),g,B.F,g,g,!0,g,g,g,g,g,g,g,g),B.bu,g,g,g),B.i,g,new A.aW(0,j.a.a*0.5,0,1/0),g,g,g,g,g,g,g,g)
+j=A.aC(g,A.az("\u85cd\u7530",g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,70*$.Y().gav()*A.aq(),g,B.F,g,g,!0,g,g,g,g,g,g,g,g),B.bu,g,g,g),B.i,g,new A.aW(0,j.a.a*0.5,0,1/0),g,g,g,g,g,g,g,g)
 k=a.q(k).f
-k=A.bC(A.a([B.agr,A.bC(A.a([j,A.aC(g,A.az("Lam Tin",g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,f,g,g,35*$.Y().gav()*A.aq(),g,B.F,g,g,!0,g,g,g,g,g,g,g,g),B.bu,g,g,g),B.i,g,new A.aW(0,k.a.a*0.4,0,1/0),g,g,g,g,g,g,g,g)],o),B.u,B.aG,B.t,B.A)],o),B.u,B.j1,B.t,B.A)
+k=A.bC(A.a([B.agr,A.bC(A.a([j,A.aC(g,A.az("Lam Tin",g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,35*$.Y().gav()*A.aq(),g,B.F,g,g,!0,g,g,g,g,g,g,g,g),B.bu,g,g,g),B.i,g,new A.aW(0,k.a.a*0.4,0,1/0),g,g,g,g,g,g,g,g)],o),B.u,B.aG,B.t,B.A)],o),B.u,B.j1,B.t,B.A)
 j=$.Y().gav()
 i=A.aq()
-i=A.ak(g,g,g,A.b2(g,g,A.V(a).bZ.c,g,g,g,g,g,f,g,g,120*j*i,g,B.F,g,g,!0,g,g,g,g,g,g,g,g),"258")
+i=A.ak(g,g,g,A.b2(g,g,A.V(a).bZ.c,g,g,g,g,g,g,g,g,120*j*i,g,B.F,g,g,!0,g,g,g,g,g,g,g,g),"258")
 j=$.Y().gav()
 h=A.aq()
-h=A.bz(A.a([n,A.bz(A.a([k,B.GJ,A.bC(A.a([A.a0Q(g,g,B.ao,!0,g,A.ak(A.a([i,A.ak(g,g,g,A.b2(g,g,A.V(a).bZ.c,g,g,g,g,g,f,g,g,90*j*h,g,B.F,g,g,!0,g,g,g,g,g,g,g,g),"D")],t.B),g,g,g,g),B.ae,g,g,1,B.a2)],o),B.u,B.x,B.t,B.A)],o),B.a8,B.x,B.t,g,g)],o),B.u,B.x,B.t,g,g)
+h=A.bz(A.a([n,A.bz(A.a([k,B.GJ,A.bC(A.a([A.a0Q(g,g,B.ao,!0,g,A.ak(A.a([i,A.ak(g,g,g,A.b2(g,g,A.V(a).bZ.c,g,g,g,g,g,g,g,g,90*j*h,g,B.F,g,g,!0,g,g,g,g,g,g,g,g),"D")],t.B),g,g,g,g),B.ae,g,g,1,B.a2)],o),B.u,B.x,B.t,B.A)],o),B.a8,B.x,B.t,g,g)],o),B.u,B.x,B.t,g,g)
 n=A.eI(A.bS(g,g,g,g,g,g,g,g,h,A.ha(A.a([$.xC?B.kA:B.kz],o),B.J,g,A.a([$.xC],p),new A.aQ3(s,r),!0)),g,g,B.bo)
 k=A.az(A.aI("display_arrival_time_in",g),g,g,g,g,g,g,g,g,g,g,g,g)
-return A.e4(A.dw(A.a([q,m,e,l,n,A.eI(A.bS(g,g,g,g,g,g,g,g,k,A.ha(A.a([$.li?B.kA:B.kz],o),B.J,g,A.a([$.li],p),new A.aQ4(s,r),!0)),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("receive_traffic_news_push",g),g,g,g,g,g,g,g,g,g,g,g,g),A.ha(B.tf,B.J,g,A.a([s.d],p),new A.aQ5(s),!0)),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("receive_starred_routes_news_push",g),g,g,g,g,g,g,g,g,g,g,g,g),A.ha(B.tf,B.J,g,A.a([s.e],p),new A.aQ6(s),!0)),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("app_version",g)+": v1.8.3",g,g,g,g,g,g,g,g,g,g,g,g),g),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("developer_email",g)+": developer@routejam.com",g,g,g,g,g,g,g,g,g,g,g,g),g),g,g,B.bo),A.eI(A.qg(A.az(A.aI("give_rating_to_routejam",g),g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,60*$.Y().gav()*A.aq(),g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g,g),new A.aQ7()),g,g,B.bo),A.eI(A.qZ(A.az(A.aI("disclaimer",g),g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,60*$.Y().gav()*A.aq(),g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g,g),new A.aQ8(s)),g,g,B.bo),A.eI(A.qZ(A.az(A.aI("feedback",g),g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,60*$.Y().gav()*A.aq(),g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g,g),new A.aQ9(s)),g,g,B.bo)],o),g,B.E,!1),g,!0)}else return B.at},
+return A.e4(A.dw(A.a([q,m,f,l,n,A.eI(A.bS(g,g,g,g,g,g,g,g,k,A.ha(A.a([$.li?B.kA:B.kz],o),B.J,g,A.a([$.li],p),new A.aQ4(s,r),!0)),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("receive_traffic_news_push",g),g,g,g,g,g,g,g,g,g,g,g,g),A.ha(B.tf,B.J,g,A.a([s.d],p),new A.aQ5(s),!0)),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("receive_starred_routes_news_push",g),g,g,g,g,g,g,g,g,g,g,g,g),A.ha(B.tf,B.J,g,A.a([s.e],p),new A.aQ6(s),!0)),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("app_version",g)+": v1.8.3",g,g,g,g,g,g,g,g,g,g,g,g),g),g,g,B.bo),A.eI(A.bS(g,g,g,g,g,g,g,g,A.az(A.aI("developer_email",g)+": developer@routejam.com",g,g,g,g,g,g,g,g,g,g,g,g),g),g,g,B.bo),A.eI(A.qg(A.az(A.aI("give_rating_to_routejam",g),g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,60*$.Y().gav()*A.aq(),g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g,g),new A.aQ7()),g,g,B.bo),A.eI(A.qZ(A.az(A.aI("disclaimer",g),g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,60*$.Y().gav()*A.aq(),g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g,g),new A.aQ8(s)),g,g,B.bo),A.eI(A.qZ(A.az(A.aI("feedback",g),g,g,g,g,g,g,g,A.b2(g,g,g,g,g,g,g,g,g,g,g,60*$.Y().gav()*A.aq(),g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g,g),new A.aQ9(s)),g,g,B.bo)],o),g,B.E,!1),g,!0)}else return B.at},
 $S:30}
 A.aQ_.prototype={
 $1(a){return this.a3I(a)},
