@@ -7311,6 +7311,7 @@ SOFTWARE.
 --------------------------------------------------------------------------------
 flutter_lints
 flutter_plugin_android_lifecycle
+go_router
 google_maps_flutter
 google_maps_flutter_android
 google_maps_flutter_ios
