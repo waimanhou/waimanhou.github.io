@@ -71,7 +71,7 @@
 </head>
 <body>
   <div id="loader">
-      <h1 id="loader-title">Routejam - 路暢</h1>
+      <h1 id="loader-title"><!--<img src="icons/Icon-512.png" class="center" /><br/>-->Routejam - 路暢</h1>
       <h2 id="loader-subtitle">加載中...<br/>Now Loading...</h2>
       <div class="lds-dual-ring"></div>
   </div>
@@ -80,8 +80,11 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+       <script>
+        self.FIREBASE_APPCHECK_DEBUG_TOKEN = true;
+      </script>
   <script>
-    var serviceWorkerVersion = '3473411382';
+    var serviceWorkerVersion = '534987544';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
