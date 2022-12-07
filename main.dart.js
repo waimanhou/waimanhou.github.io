@@ -27080,6 +27080,7 @@ var $async$ro=A.o(function(a,b){if(a===1)return A.k(b,r)
 while(true)switch(s){case 0:if($.F==null)A.vg()
 $.F.toString
 A.axS(A.a([B.M0,B.M1],t.UW))
+A.bmB(A.be3())
 s=2
 return A.f(A.afx(),$async$ro)
 case 2:s=3
@@ -27124,8 +27125,6 @@ j=$
 s=6
 return A.f(A.a9F("assets/warning_marker_s.png",50),$async$ro)
 case 6:j.aQV=b
-q=A.be3()
-A.bmB(q)
 $.a0F=A.bgq()
 $.iW().$3$level$stackTrace("Start",B.co,null)
 if($.F==null)A.vg()
