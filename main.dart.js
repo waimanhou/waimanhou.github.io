@@ -94435,9 +94435,7 @@ while(true)switch(s){case 0:s=3
 return A.f(p.e.dE(),$async$q4)
 case 3:s=4
 return A.f(p.e.Ee(),$async$q4)
-case 4:if(b==null){q=0
-s=1
-break}o=A.a([],t.RD)
+case 4:o=A.a([],t.RD)
 s=$.rq?5:6
 break
 case 5:s=7
