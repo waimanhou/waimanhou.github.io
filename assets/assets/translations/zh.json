@@ -75,5 +75,7 @@
     "small": "小",
     "medium": "中",
     "large": "大",
-    "download_app": "下載App"
+    "download_app": "下載App",
+    "image_not_found": "找不到影像",
+    "traffic_cam": "交通快拍"
 }

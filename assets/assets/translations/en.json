@@ -77,5 +77,7 @@
     "small": "S",
     "medium": "M",
     "large": "L",
-    "download_app": "Download App"
+    "download_app": "Download App",
+    "image_not_found": "Image not found",
+    "traffic_cam": "Traffic Snapshot"
 }
