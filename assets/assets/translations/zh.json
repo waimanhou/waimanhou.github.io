@@ -77,5 +77,18 @@
     "large": "大",
     "download_app": "下載App",
     "image_not_found": "找不到影像",
-    "traffic_cam": "交通快拍"
+    "traffic_cam": "交通快拍",
+    "timetable": "時間表",
+    "path": "路線",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日及公眾假期",
+    "anyday": "任何日子",
+    "_to": "至",
+    "_and": "及",
+    "journeyTime": "行車時間"
 }

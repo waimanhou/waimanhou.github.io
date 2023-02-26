@@ -79,5 +79,18 @@
     "large": "L",
     "download_app": "Download App",
     "image_not_found": "Image not found",
-    "traffic_cam": "Traffic Snapshot"
+    "traffic_cam": "Traffic Snapshot",
+    "timetable": "Timetable",
+    "path": "Path",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday & Public Holidays",
+    "anyday": "Any day",
+    "_to": " to ",
+    "_and": "and",
+    "journeyTime": "Journey Time"
 }
