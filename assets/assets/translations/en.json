@@ -93,5 +93,21 @@
     "_to": " to ",
     "_and": "and",
     "journeyTime": "Journey Time",
-    "fare": "Fare"
+    "fare": "Fare",
+    "first_train": "First Train",
+    "last_train": "Last Train",
+    "search_place": "Search Place...",
+    "search_route": "Search Route",
+    "starting_place": "Starting Place",
+    "current_location": "Current Location",
+    "search": "Search",
+    "fast": "Fast",
+    "cheap": "Cheap",
+    "direct": "Direct",
+    "transit_count": "{} transit(s)",
+    "stops": "Stop(s)",
+    "or": "Or",
+    "search_with_google_map": "Search With Google Map",
+    "interchange": "Interchange",
+    "no_route_found": "No route found."
 }

@@ -91,5 +91,21 @@
     "_to": "至",
     "_and": "及",
     "journeyTime": "行車時間",
-    "fare": "車費"
+    "fare": "車費",
+    "first_train": "首班車",
+    "last_train": "尾班車",
+    "search_place": "搜尋地點...",
+    "search_route": "搜尋路線",
+    "starting_place": "起點",
+    "current_location": "目前位置",
+    "search": "搜尋",
+    "fast": "快",
+    "cheap": "抵",
+    "direct": "舒",
+    "transit_count": "轉乘{}次",
+    "stops": "個站",
+    "or": "或",
+    "search_with_google_map": "用Google Map搜尋",
+    "interchange": "轉乘",
+    "no_route_found": "沒找到路線。"
 }
