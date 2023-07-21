@@ -107,5 +107,7 @@
     "or": "或",
     "search_with_google_map": "用Google Map搜尋",
     "interchange": "轉乘",
-    "no_route_found": "沒找到路線。"
+    "no_route_found": "沒找到路線。",
+    "cancel": "取消",
+    "input_text": "> 輸入文字"
 }

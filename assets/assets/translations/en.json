@@ -109,5 +109,7 @@
     "or": "Or",
     "search_with_google_map": "Search With Google Map",
     "interchange": "Interchange",
-    "no_route_found": "No route found."
+    "no_route_found": "No route found.",
+    "cancel": "Cancel",
+    "input_text": "> Input Text"
 }
