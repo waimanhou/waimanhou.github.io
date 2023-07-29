@@ -109,5 +109,6 @@
     "interchange": "轉乘",
     "no_route_found": "沒找到路線。",
     "cancel": "取消",
-    "input_text": "> 輸入文字"
+    "input_text": "> 輸入文字",
+    "transportation": "交通工具"
 }
