@@ -112,5 +112,7 @@
     "no_route_found": "No route found.",
     "cancel": "Cancel",
     "input_text": "> Input Text",
-    "transportation": "Transportation"
+    "transportation": "Transportation",
+    "mtr_system_map": "MTR System Map",
+    "lrail_system_map": "Lightrail System Map"
 }

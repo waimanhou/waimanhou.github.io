@@ -110,5 +110,7 @@
     "no_route_found": "沒找到路線。",
     "cancel": "取消",
     "input_text": "> 輸入文字",
-    "transportation": "交通工具"
+    "transportation": "交通工具",
+    "mtr_system_map": "港鐵路線圖",
+    "lrail_system_map": "輕鐵路線圖"
 }
